@@ -1,10 +1,28 @@
-
 import './App.css';
+import Header from './components/Header';
+import Body from './components/Body';
+import Footer from './components/Footer';
+
+
 
 function App() {
   return (
     <div className="App">
-      <h1>My react APP</h1>
+
+<div class="card text-center">
+  <div class="card-header">
+    <Header/>
+  </div>
+  <div class="card-body">
+    
+<Body/>
+    
+  </div>
+  <div class="card-footer text-muted">
+   <Footer/>
+  </div>
+</div>
+    
     </div>
   );
 }
